@@ -30,7 +30,8 @@ nav a {
 }
 
 nav li.active a,
-nav a:hover {
+nav a:hover,
+footer .email-link:hover {
   color: var(--branding-color);
   transition: all 120ms ease-in-out;
 }
@@ -54,11 +55,51 @@ h2 {
   font-size: 64px;
 }
 
+h4 {
+  font-size: 48px;
+}
+
 p {
   margin: 0;
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  padding: 10px 16px;
+  font-size: 18px;
+  border-radius: 100%;
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+}
+
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--branding-color);
+  transition: all 120ms ease-in-out;
+}
+
+footer .btn-branding {
+  padding: 18px 30px;
+  font-size: 18px;
 }
 
 .hero {
@@ -147,6 +188,10 @@ p {
   }
   h2 {
     font-size: 44px;
+  }
+
+  h4 {
+    font-size: 18px;
   }
 
   .hero {
