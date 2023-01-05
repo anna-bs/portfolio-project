@@ -119,10 +119,6 @@ footer .btn-branding {
   font-weight: normal;
 }
 
-.content-container {
-  padding: 60px 20px;
-}
-
 .content {
   margin: 30px;
 }
@@ -186,9 +182,10 @@ footer .btn-branding {
     font-size: 12px;
   }
 
-  h1 {
+  h1,
+  .content h1 {
     font-size: 44px;
-    line-height: 2;
+    line-height: 1.5;
   }
   h2 {
     font-size: 44px;
@@ -204,7 +201,7 @@ footer .btn-branding {
 
   .content-container {
     text-align: center;
-    padding: 0;
+    padding: 0 20px;
   }
 
   .about-image {
